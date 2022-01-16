@@ -2,16 +2,24 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: url("background.jpeg");
 }
 
 .search {
   margin: 2em;
   cursor: pointer;
   padding: 1em;
+  background: blue;
+  color: white;
+  border-radius: 0.4em;
+  border: none;
+}
+
+.searchdiv {
+  text-align: center;
 }
 
 img {
     width: 8em;
     height: 8em;
+    display: block;
 }

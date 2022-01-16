@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  
 }
 
 .App-header {
@@ -13,14 +13,25 @@
   font-size: 4.5em;
   font-family: "Oswald";
   color: black;
+  text-align: center;
+  background-image: url("background.jpeg");
 }
 
 .App-intro {
   font-size: large;
 }
 
+.dogListing {
+    background: white;
+    border: 1px solid #ccc;
+    width: 20%;
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 2px 2px 3px 0px #ccc;
+}
+
 .searchbar {
-  outline: none;
   border: 1px solid lightgray;
   width: 319px;
   height: 17px;
