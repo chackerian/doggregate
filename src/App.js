@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { Component } from 'react';
 import './App.css';
 
 function Dogs(props) {
@@ -6,7 +6,7 @@ function Dogs(props) {
   return (
       <div className="listings">
         {props.resultsArr.map(({ age, sex, breed, image}) => (
-            <div className="dogListing">
+            <div className="dogListing" key="{image}">
               <img src={image} alt="" />
               <span>Age: {age}</span>
               <br />
